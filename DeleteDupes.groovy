@@ -1,6 +1,3 @@
-// Example API work
-// Not all classes and methods are included 
-
 @ResponseBody
 @PostMapping("/tools/deleteduplicates/{paid}")
 ResponseEntity<?> dedupeProgramAiring(@PathVariable Integer paid, @RequestParam(value = "publish", defaultValue = "false") Boolean publish) {
